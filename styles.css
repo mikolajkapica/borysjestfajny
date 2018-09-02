@@ -3,8 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+@import url('https://rsms.me/inter/inter-ui.css');
 body {
-  font-family: 'atlas grotesk', 'San Francisco', Helvetica, Arial, san-serif;
+  font-family: 'Inter UI', -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 300;
   background-color: #efefef;
 }
