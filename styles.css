@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font: atlas grotesk, 'San Francisco', Helvetica, Arial, san-serif;
+  font: 'atlas grotesk', 'San Francisco', Helvetica, Arial, san-serif;
   font-weight: 300;
   background-color: #efefef;
 }
