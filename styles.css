@@ -38,10 +38,15 @@ body {
 a {
   text-decoration: none;
   color: #2779ff;
-  cursor: url(ig.png), default;
 }
 a:hover {
   text-decoration: underline;
+}
+.ig {
+  cursor: url(ig.png), default;
+}
+.mail {
+  cursor: url(mail.png), default;
 }
 .this {
   display: grid;
@@ -66,7 +71,7 @@ a:hover {
   grid-column-start: 1;
   grid-column-end: 3;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 650px) {
   body {
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto;
