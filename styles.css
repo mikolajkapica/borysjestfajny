@@ -16,6 +16,7 @@ body {
   width: 960px;
   margin: 0 auto;
   max-width: 90%;
+  padding-bottom: 30px;
 }
 .wrapper {
   width: 400px;
@@ -76,17 +77,12 @@ a:hover {
 }
 .credit {
   color: #666;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  font-size: 10px;
-  grid-column: 2;
+  padding-top: 10px;
+  font-size: 12px;
 }
 @media screen and (max-width: 650px) {
   body {
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto;
-  }
-  .credit {
-    grid-column: 1;
   }
 }
