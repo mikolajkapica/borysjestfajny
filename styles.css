@@ -1,4 +1,4 @@
-*{
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,38 +7,52 @@
 body {
   font-family: 'Inter UI', -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 300;
-  background-color: #efefef;
+  font-size: 16px;
+  background-color: #000;
+  color: #f2f2f2;
 }
 .wrapper {
   width: 600px;
   max-width: 90%;
   height: 100%;
-  /* min-height: 100vh; */
+  min-height: 100vh;
   margin: 0 auto;
-  background-color: white;
+
 }
 p {
   line-height: 24px;
   padding: 77px;
   padding-top: 80px;
+  text-align: center;
+}
+.grafika {
+  cursor: url(grafika.png), default;
+}
+.uczen {
+  cursor: url(uczen.png), default;
 }
 .bold {
-  font-weight: 500;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  cursor: url(hye.png), default;
 }
 a {
   text-decoration: none;
-  color: blue;
+  color: #2779ff;
+  cursor: url(ig.png), default;
 }
 a:hover {
   text-decoration: underline;
 }
 .load {
-  width: 2000px;
+  opacity: 1;
 }
 
 .img {
   display: inline;
-  /* transition: .5s */
+  transition: .5s;
+  border-radius: 10px;
 }
 .one {
   margin-top: 41px;
@@ -67,6 +81,7 @@ a:hover {
 .load {
   opacity: 1;
 }
+
 @media only screen and (max-width: px)  {}
 @media only screen and (max-width: 510px)  {
   .wrapper {
@@ -74,6 +89,6 @@ a:hover {
   }
   p {
     padding: 40px;
-    padding-top: 64px;
+    padding-top: 80px;
   }
 }
