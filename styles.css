@@ -1,15 +1,14 @@
 @import url('https://rsms.me/inter/inter-ui.css');
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,200,300,400,500,600,700,800,900');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: 'IBM Plex Mono', 'Inter UI', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Inter UI', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 16px;
   font-weight: 300;
-  line-height: 21px;
+  line-height: 24px;
   background-color: #000;
   color: #f2f2f2;
   display: grid;
@@ -28,9 +27,6 @@ body {
 .grafika {
   cursor: url(grafika.png), default;
 }
-.uczen {
-  cursor: url(uczen.png), default;
-}
 .bold {
   font-family: 'Inter UI';
   font-size: 32px;
@@ -39,8 +35,8 @@ body {
 }
 a {
   text-decoration: none;
-  color: #2779ff;
-  font-weight: 500;
+  color: #0074D9;
+
 }
 a:hover {
   text-decoration: underline;
@@ -50,9 +46,7 @@ a:hover {
 }
 .mail {
   cursor: url(mail.png), default;
-  color: #ba1a1a;
-}
-.kontakt {
+  color: #26a534;
 }
 .this {
   display: grid;
