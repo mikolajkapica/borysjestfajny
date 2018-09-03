@@ -8,3 +8,4 @@ $( document ).ready(function() {
 $(document).ready(function() {
     $('body').hide().fadeIn(500);
 });
+ 
