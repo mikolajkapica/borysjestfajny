@@ -5,6 +5,6 @@ $( document ).ready(function() {
     }, 200 * i);
   });
 });
-$(document).ready(function(){
-        $("body").addClass("load2");
+$(document).ready(function() {
+    $('body').hide().fadeIn(500);
 });

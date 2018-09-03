@@ -15,8 +15,6 @@ body {
   grid-template-columns: 60% 40%;
   width: 960px;
   max-width: 90%;
-  margin: 0 auto;
-  visibility: hidden;
 }
 .wrapper {
   width: 400px;
@@ -70,9 +68,6 @@ a:hover {
 .load {
   opacity: 1;
   transform: translateY(0);
-}
-.load2 {
-  visibility: visible;
 }
 .one {
   grid-column-start: 1;
