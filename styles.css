@@ -16,6 +16,7 @@ body {
   width: 960px;
   max-width: 90%;
   margin: 0 auto;
+  visibility: hidden;
 }
 .wrapper {
   width: 400px;
@@ -26,6 +27,9 @@ body {
 }
 .grafika {
   cursor: url(grafika.png), default;
+}
+.uczen {
+  cursor: url(uczen.png), default;
 }
 .bold {
   font-family: 'Inter UI';
@@ -57,7 +61,6 @@ a:hover {
   transition-delay: 1s;
 }
 .image {
-  visibility: hidden;
   width: 100%;
   border-radius: 10px;
   opacity: 0;
@@ -65,9 +68,11 @@ a:hover {
   transition: opacity 1s ease-in-out, transform 1s ease-in-out;
 }
 .load {
-  visibility: visible;
   opacity: 1;
   transform: translateY(0);
+}
+.load2 {
+  visibility: visible;
 }
 .one {
   grid-column-start: 1;
